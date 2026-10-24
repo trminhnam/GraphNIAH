@@ -12,7 +12,7 @@
 [![Project Page](https://img.shields.io/badge/Project-Website-1f6feb?logo=googlechrome&logoColor=white)](https://trminhnam.github.io/projects/graphniah/)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-ffcc4d?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/minhnam/GraphNIAH)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white)](#installation)
-[![License](https://img.shields.io/badge/License-TBD-lightgrey)](#license)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 </div>
 
@@ -598,11 +598,21 @@ The BibTeX entry will be added here once the paper is public.
 
 ## License
 
-<!-- TODO: choose a license (for example, MIT or Apache-2.0), add a LICENSE file, and update the badge above. -->
+The code is released under the [MIT License](LICENSE). The BibTeX style files
+in `src/reference_parser/style_files/` keep their own licenses (LPPL or public
+domain).
 
-The code license is to be decided. Distractor corpora (Linux kernel, Paul
-Graham essays, PG-19, Wikipedia) and Semantic Scholar data are **not**
-redistributed here; they remain under their original licenses and terms.
+This repository contains no data. The pipeline downloads the data below, and
+you must follow each source's terms; see
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for details.
+
+| Data | Terms |
+| --- | --- |
+| Semantic Scholar Academic Graph | ODC-BY 1.0; cite [Kinney et al. (2023)](https://arxiv.org/abs/2301.10140). Downloading requires an API key under the Semantic Scholar API License Agreement. |
+| Linux kernel (`code` distractors) | GPL-2.0 |
+| Paul Graham essays (`essays` distractors) | Copyrighted by the author; use for research only and do not redistribute |
+| PG-19 (`books` distractors) | Apache-2.0 dataset of public-domain books |
+| Wikipedia (`wikipedia` distractors) | CC BY-SA 3.0 |
 
 ## Acknowledgments
 
