@@ -1,0 +1,344 @@
+models:
+  gemini-3.1-pro-preview:
+    model: Gemini 3.1 Pro
+    api_model_name: "gemini/gemini-3.1-pro-preview"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "January 31, 2025"
+    native_context_length: 1048576
+    io_pricing: "4 / 18"
+    provider: Google
+  gemini-3-1-flash-lite:
+    model: Gemini 3.1 Flash Lite
+    api_model_name: "gemini/gemini-3.1-flash-lite"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "January 31, 2025"
+    native_context_length: 1048576
+    io_pricing: "0.25 / 1.5"
+    provider: Google
+  gpt-5.4:
+    model: GPT-5.4
+    api_model_name: "openai/gpt-5.4"
+    base_url: ""
+    # base_url: "http://127.0.0.1:18080/v1"
+    hf_model_id: ""
+    knowledge_cutoff_date: "August 31, 2025"
+    native_context_length: 1050000
+    io_pricing: "2.50 / 15"
+    provider: OpenAI
+  gpt-5.4-mini:
+    model: GPT-5.4-Mini
+    api_model_name: "openai/gpt-5.4-mini"
+    base_url: ""
+    # base_url: "http://127.0.0.1:18080/v1"
+    hf_model_id: ""
+    knowledge_cutoff_date: "August 31, 2025"
+    native_context_length: 400000
+    io_pricing: "0.75 / 4.5"
+    provider: OpenAI
+  gpt-5.4-nano:
+    model: GPT-5.4-Nano
+    api_model_name: "openai/gpt-5.4-nano"
+    base_url: ""
+    # base_url: "http://127.0.0.1:18080/v1"
+    hf_model_id: ""
+    knowledge_cutoff_date: "August 31, 2025"
+    native_context_length: 400000
+    io_pricing: "0.2 / 1.25"
+    provider: OpenAI
+  gpt-5.6-sol:
+    model: GPT-5.6-Sol
+    api_model_name: "openai/gpt-5.6-sol"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "February 16, 2026"
+    native_context_length: 1050000
+    # OpenAI lists promotional pricing through November 21, 2026.
+    io_pricing: "4 / 20"
+    provider: OpenAI
+  gpt-5.6-terra:
+    model: GPT-5.6-Terra
+    api_model_name: "openai/gpt-5.6-terra"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "February 16, 2026"
+    native_context_length: 1050000
+    io_pricing: "2 / 12"
+    provider: OpenAI
+  gpt-5.6-luna:
+    model: GPT-5.6-Luna
+    api_model_name: "openai/gpt-5.6-luna"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "February 16, 2026"
+    native_context_length: 1050000
+    io_pricing: "0.2 / 1.2"
+    provider: OpenAI
+  # gpt-oss-20b:
+  #   model: GPT-OSS-20B
+  #   api_model_name: "together_ai/openai/gpt-oss-20b"
+  #   base_url: ""
+  #   hf_model_id: "openai/gpt-oss-20b"
+  #   knowledge_cutoff_date: "June 01, 2024"
+  #   native_context_length: 128000
+  #   io_pricing: "0.05 / 0.20"
+  #   provider: Together.ai
+  # gpt-oss-120b:
+  #   model: GPT-OSS-120B
+  #   api_model_name: "together_ai/openai/gpt-oss-120b"
+  #   base_url: ""
+  #   hf_model_id: "openai/gpt-oss-120b"
+  #   knowledge_cutoff_date: "June 01, 2024"
+  #   native_context_length: 128000
+  #   io_pricing: "0.15 / 0.60"
+  #   provider: Together.ai
+  qwen3.5-397b-a17b:
+    model: Qwen3.5-397B-A17B
+    # api_model_name: "together_ai/Qwen/Qwen3.5-397B-A17B"
+    api_model_name: "openrouter/qwen/qwen3.5-397b-a17b"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-397B-A17B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "0.60 / 3.60"
+    provider: Together.ai
+  qwen3.5-122b-a10b:
+    model: Qwen3.5-122B-A10B
+    api_model_name: "openrouter/qwen/qwen3.5-122b-a10b"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-122B-A10B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "0.26 / 2.08"
+    provider: OpenRouter
+  qwen3.5-35b-a3b:
+    model: Qwen3.5-35B-A3B
+    api_model_name: "openrouter/qwen/qwen3.5-35b-a3b"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-35B-A3B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "0.14 / 1.00"
+    provider: OpenRouter
+  qwen3.5-27b:
+    model: Qwen3.5-27B
+    api_model_name: "openrouter/qwen/qwen3.5-27b"
+    # api_model_name: "huggingface/Qwen/Qwen3.5-27B"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-27B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "0.20 / 1.56"
+    provider: OpenRouter
+  qwen3.5-9b:
+    model: Qwen3.5-9B
+    api_model_name: "together_ai/Qwen/Qwen3.5-9B"
+    # api_model_name: "huggingface/Qwen/Qwen3.5-9B"
+    # api_model_name: "openrouter/qwen/qwen3.5-9b"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-9B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "0.10 / 0.15"
+    provider: Together.ai
+  qwen3.5-4b:
+    model: Qwen3.5-4B
+    # api_model_name: "huggingface/Qwen/Qwen3.5-4B"
+    api_model_name: "openrouter/qwen/qwen3.5-4b"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-4B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "N/A / N/A"
+    provider: "N/A"
+  qwen3.5-2b:
+    model: Qwen3.5-2B
+    # api_model_name: "huggingface/Qwen/Qwen3.5-2B"
+    api_model_name: "openrouter/qwen/qwen3.5-2b"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-2B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "N/A / N/A"
+    provider: "N/A"
+  qwen3.5-0.8b:
+    model: Qwen3.5-0.8B
+    # api_model_name: "huggingface/Qwen/Qwen3.5-0.8B"
+    api_model_name: "openrouter/qwen/qwen3.5-0.8b"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "Qwen/Qwen3.5-0.8B"
+    knowledge_cutoff_date: "February 15, 2026"
+    native_context_length: 262144
+    io_pricing: "N/A / N/A"
+    provider: "N/A"
+  deepseek-v4-pro:
+    model: DeepSeek-V4-Pro
+    api_model_name: "deepseek/deepseek-v4-pro"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "April 23, 2026"
+    native_context_length: 1048576
+    io_pricing: "1.74 / 3.48"
+    provider: OpenRouter/DeepSeek/Together.ai
+  # deepseek-v4-flash:
+  #     model: DeepSeek-V4-Flash
+  #     api_model_name: "deepseek/deepseek-v4-flash"
+  #     base_url: ""
+  #     hf_model_id: ""
+  #     knowledge_cutoff_date: "April 23, 2026"
+  #     native_context_length: 1048576
+  #     io_pricing: "0.14 / 0.28"
+  #     provider: OpenRouter/DeepSeek
+  gemma-4-31b:
+    model: Gemma 4 31B
+    api_model_name: "together_ai/google/gemma-4-31B-it"
+    # base_url: ""
+    # api_model_name: "huggingface/google/gemma-4-31B-it"
+    # base_url: "http://0.0.0.0:6879"
+    # api_model_name: "openrouter/google/gemma-4-31b-it:free"
+    # api_model_name: "gemini/gemma-4-31b-it"
+    base_url: ""
+    hf_model_id: "google/gemma-4-31B-it"
+    knowledge_cutoff_date: "April 2, 2026"
+    native_context_length: 262144
+    io_pricing: "N/A / N/A"
+    provider: TogetherAI
+  gemma-4-26b-a4b:
+    model: Gemma 4 26B A4B
+    # api_model_name: "openrouter/google/gemma-4-26b-a4b-it"
+    # base_url: ""
+    # api_model_name: "huggingface/google/gemma-4-26B-A4B-it"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    api_model_name: "gemini/gemma-4-26b-a4b-it"
+    hf_model_id: "google/gemma-4-26B-A4B-it"
+    knowledge_cutoff_date: "April 2, 2026"
+    native_context_length: 262144
+    io_pricing: "0.15 / 0.6"
+    provider: OpenRouter
+  gemma-4-e4b:
+    model: Gemma 4 E4B
+    # api_model_name: ""
+    api_model_name: "huggingface/google/gemma-4-E4B-it"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "google/gemma-4-E4B-it"
+    knowledge_cutoff_date: "April 2, 2026"
+    native_context_length: 131072
+    io_pricing: "N/A / N/A"
+    provider: "N/A"
+  gemma-4-e2b:
+    model: Gemma 4 E2B
+    # api_model_name: ""
+    api_model_name: "huggingface/google/gemma-4-E2B-it"
+    # base_url: "http://0.0.0.0:6879"
+    base_url: ""
+    hf_model_id: "google/gemma-4-E2B-it"
+    knowledge_cutoff_date: "April 2, 2026"
+    native_context_length: 131072
+    io_pricing: "N/A / N/A"
+    provider: "N/A"
+
+  # gemma-3-27b:
+  #   model: Gemma 3 27B
+  #   api_model_name: "openrouter/google/gemma-3-27b-it"
+  #   base_url: ""
+  #   hf_model_id: ""
+  #   knowledge_cutoff_date: "March 13, 2025"
+  #   native_context_length: 131072
+  #   io_pricing: "0.08 / 0.16"
+  #   provider: OpenRouter
+  # gemma-3-12b:
+  #   model: Gemma 3 12B
+  #   api_model_name: "openrouter/google/gemma-3-12b-it"
+  #   base_url: ""
+  #   hf_model_id: ""
+  #   knowledge_cutoff_date: "March 13, 2025"
+  #   native_context_length: 131072
+  #   io_pricing: "0.04 / 0.13"
+  #   provider: OpenRouter
+  # gemma-3-4b:
+  #   model: Gemma 3 4B
+  #   api_model_name: "openrouter/google/gemma-3-4b-it"
+  #   base_url: ""
+  #   hf_model_id: ""
+  #   knowledge_cutoff_date: "March 13, 2025"
+  #   native_context_length: 131072
+  #   io_pricing: "0.04 / 0.08"
+  #   provider: OpenRouter
+
+  qwen3.6-27b:
+    model: Qwen3.6-27B
+    api_model_name: "custom/qwen3.6:27b"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "N/A"
+    native_context_length: 262144
+    io_pricing: "N/A / N/A"
+    provider: Custom endpoint
+
+  deepseek-v4-flash:
+    model: DeepSeek-V4-Flash
+    api_model_name: "together_ai/deepseek-ai/DeepSeek-V4-Flash-0731"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "April 23, 2026"
+    native_context_length: 1048576
+    io_pricing: "0.14 / 0.28"
+    provider: OpenRouter/DeepSeek
+
+  gemini-3-5-flash-lite:
+    model: Gemini 3.1 Flash Lite
+    api_model_name: "gemini/gemini-3.5-flash-lite"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "January 31, 2025"
+    native_context_length: 1048576
+    io_pricing: "0.3 / 2.5"
+    provider: Google
+  gemini-3-5-flash:
+    model: Gemini 3.1 Flash
+    api_model_name: "gemini/gemini-3.5-flash"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "January 01, 2025"
+    native_context_length: 1048576
+    io_pricing: "1.5 / 9"
+    provider: Google
+
+  # Gemini 3.6/3.7/3.8 Flash: Google does not publish a knowledge cutoff.
+  # Prices are introductory through December 31, 2026; they double to
+  # "1.5 / 7.5" starting January 1, 2027.
+  gemini-3.8-flash:
+    model: Gemini 3.8 Flash
+    api_model_name: "gemini/gemini-3.8-flash"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "N/A"
+    native_context_length: 1048576
+    io_pricing: "0.75 / 3.75"
+    provider: Google
+  gemini-3.7-flash:
+    model: Gemini 3.7 Flash
+    api_model_name: "gemini/gemini-3.7-flash"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "N/A"
+    native_context_length: 1048576
+    io_pricing: "0.75 / 3.75"
+    provider: Google
+  gemini-3.6-flash:
+    model: Gemini 3.6 Flash
+    api_model_name: "gemini/gemini-3.6-flash"
+    base_url: ""
+    hf_model_id: ""
+    knowledge_cutoff_date: "N/A"
+    native_context_length: 1048576
+    io_pricing: "0.75 / 3.75"
+    provider: Google

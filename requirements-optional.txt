@@ -1,0 +1,10 @@
+# Optional utilities outside the documented bulk v1 workflow.
+docling
+PyMuPDF
+pypdf
+sentence-transformers
+faiss-cpu
+gsutil
+antlr4-python3-runtime==4.9.3
+antlr4-tools
+IPython

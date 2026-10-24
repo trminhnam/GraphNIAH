@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.venv/
+output/
+logs/
+resources/semantic_scholar_bulk/
+resources/semantic_scholar_graph*/
+resources/distracting_content/
+resources/cache/
+
+# Local packaging records, not part of the public repository
+VALIDATION.md
+SHA256SUMS
