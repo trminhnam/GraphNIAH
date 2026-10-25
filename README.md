@@ -1,6 +1,6 @@
 <div align="center">
 
-# GraphNIAH: A Benchmark for Long-Context Reasoning over Realistic Graphs
+# GraphNIAH: A Benchmark for Long-Context Reasoning over Real-World Graphs
 
 **Minh-Nam Tran, Abulhair Saparov**
 
@@ -587,7 +587,7 @@ The BibTeX entry will be added here once the paper is public.
 
 <!-- ```bibtex
 @article{tran2026graphniah,
-  title   = {{GraphNIAH}: A Benchmark for Long-Context Reasoning over Realistic Graphs},
+  title   = {{GraphNIAH}: A Benchmark for Long-Context Reasoning over Real-World Graphs},
   author  = {Tran, Minh-Nam and Saparov, Abulhair},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026},
